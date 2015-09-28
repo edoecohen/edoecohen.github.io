@@ -1,0 +1,13 @@
+<h1>Projects</h1>
+<div ng-repeat='project in vm.projects' class='project'>
+	<a href='{{ project.link }}' target='_blank'>
+		<img ng-src='{{ project.pic }}' />
+	</a>
+	<div class="details">
+		<h1><a href='{{ project.link }}' target='_blank'>{{ project.title }}</a></h1>
+		<ul>
+			<li ng-repeat='tech in project.stack'>{{ tech }}</li>
+		</ul>
+		<p>{{ project.details }}</p>
+	</div>
+</div>
