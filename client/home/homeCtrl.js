@@ -4,14 +4,12 @@
     .module('app.home')
     .controller('HomeCtrl', HomeCtrl);
 
-  HomeCtrl.$inject = ['SiteData'];
+  HomeCtrl.$inject = ['SiteData', '$location', '$anchorScroll'];
 
-  function HomeCtrl(SiteData) {
+  function HomeCtrl(SiteData, $location, $anchorScroll) {
 
     var vm = this;
-    vm.about = SiteData.about;
-
-    console.log('SiteData.about', SiteData.about);
+    vm.data = SiteData;
 
   };
 

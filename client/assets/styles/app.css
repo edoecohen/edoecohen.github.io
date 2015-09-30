@@ -48,14 +48,27 @@ a {
   color: black;
 }
 
-
 a:hover, a:visited, a:focus {
   text-decoration: none;
 }
 
+.section {
+  margin-bottom: 60px;
+}
+
+/* LEFT MENU */
+.fixed {
+  position: fixed;
+  width: 33%;
+}
+
+.main {
+  margin-left: 33%;
+}
+
 /* PROJECTS */
 .project {
-  height: 230px;
+  min-height: 230px;
   margin-bottom: 50px;
 }
 .project img {
@@ -68,7 +81,6 @@ a:hover, a:visited, a:focus {
 .project h1 {
   font-size: 1.2em;
 }
-
 
 .project ul {
   list-style: none;

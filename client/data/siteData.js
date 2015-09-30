@@ -16,7 +16,7 @@
       {
         title:    'Journey',
         details:  'Journey is a web application that guides you to your dream job. It gives actionable insights on how to obtain a desired job by collecting, analyzing, and visualizing the career data of others.',
-        stack:    ['Backbone', 'Node', 'MySQL'],
+        stack:    ['Backbone', 'Node', 'MySQL', 'D3'],
         link:     'http://letsjourney.herokuapp.com/',
         pic:      '../client/assets/pics/Journey_1.png'
       },
@@ -32,14 +32,14 @@
         details:  "Live is a mobile app for concert reviews. Users can rate live shows they've attended, provide reviews and find the best live acts.",
         stack:    ['Ionic', 'Node', 'Postgres'],
         link:     'http://livereviews.herokuapp.com/#/',
-        pic:      '../client/assets/pics/Live_1.png'
+        pic:      '../client/assets/pics/placeit.jpg'
       },
       {
         title:    'Alike',
-        details:  "Live is a mobile app for concert reviews. Users can rate live shows they've attended, provide reviews and find the best live acts.",
+        details:  "Alike is a music, film and literature recommendation engine. Tell Alike your favorite film, musician or author and it will make suggestions of similar artworks and artists.",
         stack:    ['jQuery', 'Masonry'],
         link:     'http://livereviews.herokuapp.com/#/',
-        pic:      '../client/assets/pics/Live_1.png'
+        pic:      '../client/assets/pics/Alike_2.png'
       },
       
 

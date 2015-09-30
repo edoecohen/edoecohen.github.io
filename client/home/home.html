@@ -1,2 +1,42 @@
-<h1>About Me</h1>
-<p>{{ vm.about }}</p>
+<section class='section'>
+	<h1>About Me</h1>
+	<p>{{ vm.data.about }}</p>
+</section>
+
+<section class='section' id='projects'>
+	<h1>Projects</h1>
+	<div ng-repeat='project in vm.data.projects' class='project'>
+		
+		<div class='pic'>
+			<a href='{{ project.link }}' target='_blank'>
+				<img ng-src='{{ project.pic }}' />
+			</a>
+		</div>
+		<div class='details'>
+			<h1><a href='{{ project.link }}' target='_blank'>{{ project.title }}</a></h1>
+			<ul>
+				<li ng-repeat='tech in project.stack'>{{ tech }}</li>
+			</ul>
+			<p>{{ project.details }}</p>
+		</div>
+	</div>
+</section>
+
+<section class='section' id='experience'>
+	<h1>Experience</h1>
+	<div ng-repeat='project in vm.data.projects' class='project'>
+		
+		<div class='pic'>
+			<a href='{{ project.link }}' target='_blank'>
+				<img ng-src='{{ project.pic }}' />
+			</a>
+		</div>
+		<div class='details'>
+			<h1><a href='{{ project.link }}' target='_blank'>{{ project.title }}</a></h1>
+			<ul>
+				<li ng-repeat='tech in project.stack'>{{ tech }}</li>
+			</ul>
+			<p>{{ project.details }}</p>
+		</div>
+	</div>
+</section>
