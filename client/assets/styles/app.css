@@ -66,6 +66,24 @@ a:hover, a:visited, a:focus {
   margin-left: 33%;
 }
 
+/* ABOUT ME */
+.findMe p, .findMe ul, .findMe ul li  {
+  display: inline-block;
+}
+
+.findMe ul {
+  padding-left: 0;
+  margin-left: 10px;
+}
+
+.findMe li {
+  margin-right: 15px;
+}
+
+.findMe li a {
+  color: #2F5271;
+}
+
 /* PROJECTS */
 .project {
   min-height: 230px;
@@ -76,6 +94,7 @@ a:hover, a:visited, a:focus {
   max-width: 400px;
   max-height: 400px;
   margin-right: 20px;
+  border: 1px solid #E8E8E8;
 }
 
 .project h1 {

@@ -1,15 +1,23 @@
+<!-- ABOUT ME -->
 <section class='section'>
 	<h1>About Me</h1>
 	<p>{{ vm.data.about }}</p>
+	<div class='findMe'>
+		<p>You can find me here:</p>
+		<ul>
+			<li ng-repeat='social in vm.data.social'><a href="{{ social.link }}" target="_blank">{{ social.title }}</a></li>
+		</ul>
 </section>
 
+
+<!-- PROJECTS -->
 <section class='section' id='projects'>
 	<h1>Projects</h1>
 	<div ng-repeat='project in vm.data.projects' class='project'>
 		
 		<div class='pic'>
 			<a href='{{ project.link }}' target='_blank'>
-				<img ng-src='{{ project.pic }}' />
+				<img ng-src='{{ project.pic }}' ng-click='thisFun()' />
 			</a>
 		</div>
 		<div class='details'>
@@ -24,7 +32,7 @@
 
 <section class='section' id='experience'>
 	<h1>Experience</h1>
-	<div ng-repeat='project in vm.data.projects' class='project'>
+	<!-- <div ng-repeat='project in vm.data.projects' class='project'>
 		
 		<div class='pic'>
 			<a href='{{ project.link }}' target='_blank'>
@@ -38,5 +46,5 @@
 			</ul>
 			<p>{{ project.details }}</p>
 		</div>
-	</div>
+	</div> -->
 </section>
