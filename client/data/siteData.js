@@ -91,10 +91,46 @@
         stack:    ['jQuery'],
         link:     'http://edoecohen.github.io/shopping-list/',
         pic:      '../client/assets/pics/Shopping.png'
-      },
-
-
+      }
     ];
+
+    service.experience = [
+      {
+        company: 'Hack Reactor',
+        role: 'Hacker in Residence',
+        details: 'Elite software career accelerator',
+        link: 'http://www.hackreactor.com/',
+        pic: '../client/assets/pics/icons/HR.png'
+      },
+      {
+        company: 'Alum.ni',
+        role: 'Co-Founder & CEO',
+        details: 'Platform for alumni networks',
+        link: 'http://orjewishlife.com/alumni/',
+        pic: '../client/assets/pics/icons/Alumni.png'
+      },
+      {
+        company: 'Omanoot',
+        role: 'Co-Founder & CEO',
+        details: 'Etsy for Israeli art and culture',
+        link: 'http://www.forbes.com/sites/abigailesman/2011/01/17/new-start-up-puts-israeli-creativity-to-work-on-middle-east-peace/',
+        pic: '../client/assets/pics/icons/Omanoot.png'
+      },
+      {
+        company: 'Cafe Nana',
+        role: 'Co-Founder',
+        details: 'Student cafe on Columbia University campus',
+        link: 'http://columbiaspectator.com/2006/02/01/cup-jaffa',
+        pic: '../client/assets/pics/icons/CafeNana.png'
+      },
+      {
+        company: 'Israel Defense Forces',
+        role: 'Infantry Company Commander',
+        details: 'The military forces of the State of Israel',
+        link: 'https://www.idfblog.com/',
+        pic: '../client/assets/pics/icons/IDF2.jpg'
+      }
+    ]
 
     return service;
   }

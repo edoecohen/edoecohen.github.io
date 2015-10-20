@@ -15,7 +15,7 @@
       // set the location.hash to the id of
       // the element you wish to scroll to
       $location.hash(section);
-      $anchorScroll.yOffset = 20;
+      $anchorScroll.yOffset = 40;
       $anchorScroll();
     }
 
